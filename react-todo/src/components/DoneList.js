@@ -22,6 +22,11 @@ const DoneList = (props) => {
                 onClick={() => {
                   props.setList([...props.list, item]);
                   props.done.splice(i, 1);
+                  {
+                    props.done.length < 1
+                      ? props.setShow(false)
+                      : props.setShow(true);
+                  }
                 }}
               />
               <button
