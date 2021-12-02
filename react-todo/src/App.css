@@ -1,0 +1,56 @@
+body {
+  margin-top: 8px;
+  text-align: center;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all {
+  width: 250px;
+  height: 500px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.form-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.done,
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 15rem;
+  height: 10rem;
+  margin: 10px;
+}
+
+button {
+  display: inline-block;
+  background: rgb(100, 100, 242);
+  color: rgb(11, 10, 10);
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  border-color: transparent;
+
+  font-size: 1rem;
+
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
